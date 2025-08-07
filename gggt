@@ -5073,7 +5073,7 @@ function Library:Window(p)
 		ImageLabel_1.ImageTransparency = 1
 
 		UICorner_1.Parent = SizeFrame
-		UICorner_1.CornerRadius = UDim.new(0,15)
+		UICorner_1.CornerRadius = UDim.new(0,45)
 
 		Size_1.MouseButton1Down:Connect(function()
 			R = true
