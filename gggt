@@ -5069,11 +5069,11 @@ function Library:Window(p)
 		ImageLabel_1.BorderSizePixel = 0
 		ImageLabel_1.Position = UDim2.new(0.5, 0,0.5, 0)
 		ImageLabel_1.Size = UDim2.new(0, 100,0, 100)
-		ImageLabel_1.Image = "rbxassetid://13857987062"
+		ImageLabel_1.Image = "rbxassetid://"13857987062
 		ImageLabel_1.ImageTransparency = 1
 
 		UICorner_1.Parent = SizeFrame
-		UICorner_1.CornerRadius = UDim.new(0,17)
+		UICorner_1.CornerRadius = UDim.new(0,15)
 
 		Size_1.MouseButton1Down:Connect(function()
 			R = true
