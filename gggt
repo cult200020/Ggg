@@ -1025,7 +1025,7 @@ do
 		RealBackground.BackgroundTransparency = 1
 		RealBackground.BorderColor3 = Color3.fromRGB(0,0,0)
 		RealBackground.BorderSizePixel = 0
-		RealBackground.Size = UDim2.new(1, 0,0, 35)
+		RealBackground.Size = UDim2.new(1, 0,0, 88)
 		RealBackground.ClipsDescendants = true
 
 		Background.Name = "Background"
