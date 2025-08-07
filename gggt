@@ -1025,7 +1025,7 @@ do
 		RealBackground.BackgroundTransparency = 1
 		RealBackground.BorderColor3 = Color3.fromRGB(0,0,0)
 		RealBackground.BorderSizePixel = 0
-		RealBackground.Size = UDim2.new(1, 0,0, 88)
+		RealBackground.Size = UDim2.new(1, 0,0, 35)
 		RealBackground.ClipsDescendants = true
 
 		Background.Name = "Background"
@@ -5069,11 +5069,11 @@ function Library:Window(p)
 		ImageLabel_1.BorderSizePixel = 0
 		ImageLabel_1.Position = UDim2.new(0.5, 0,0.5, 0)
 		ImageLabel_1.Size = UDim2.new(0, 100,0, 100)
-		ImageLabel_1.Image = "rbxassetid://"13857987062
+		ImageLabel_1.Image = "rbxassetid://13857987062"
 		ImageLabel_1.ImageTransparency = 1
 
 		UICorner_1.Parent = SizeFrame
-		UICorner_1.CornerRadius = UDim.new(0,45)
+		UICorner_1.CornerRadius = UDim.new(0,17)
 
 		Size_1.MouseButton1Down:Connect(function()
 			R = true
